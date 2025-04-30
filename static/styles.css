@@ -1,0 +1,87 @@
+/* Apply Poppins font globally */
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Tooltip */
+.tooltip {
+    position: relative;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #1f2937;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Alternating row colors for Items table */
+#itemList tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+#itemList tr:hover {
+    background-color: #e5e7eb;
+    transition: background-color 0.3s ease;
+}
+
+/* Enhance solution table row hover */
+#solutionBody tr:hover {
+    background-color: #e5e7eb;
+    transition: background-color 0.3s ease;
+}
+
+/* Add subtle shadow to inputs on focus */
+input:focus, select:focus {
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
