@@ -209,7 +209,7 @@ Os resultados para cada algoritmo são apresentados abaixo, incluindo a soluçã
 
 ### Desenvolvimento Web com Flask
 
-- A integração de algoritmos Python com uma interface web via Flask foi um aprendizado valioso, especialmente na comunicação assíncrona com AJAX.
+- A integração de algoritmos Python com uma interface web via Flask foi um aprendizado valioso, especialmente na comunicação assíncrona.
 
 ### Resolução de Problemas
 
