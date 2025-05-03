@@ -1,5 +1,10 @@
 # Participantes:
+
+* Luis Felipe Mondini
+* Gustavo Larsen
+* Henrick Bessa
 * João Antonio David
+* Lucas Michels
 * Thiago de Freitas Saraiva
 
 ### Como rodar o programa:
